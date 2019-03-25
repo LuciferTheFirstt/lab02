@@ -1,3 +1,11 @@
-Команда AT признана нерекомендуемой. Используйте вместо нее schtasks.exe.
+#include <print.hpp>
 
-Такой запрос не поддерживается.
+void print(const std::string& text, std::ostream& out)
+{
+  out << text;
+}
+
+void print(const std::string& text, std::ofstream& out)
+{
+  out << text;
+}

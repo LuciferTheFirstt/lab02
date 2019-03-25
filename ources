@@ -1,0 +1,180 @@
+[33mcommit 80f6e5c8f2db9ac05f5c7c82187af2b9ce71c42a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: LuciferTheFirstt <dimonator67@gmail.com>
+Date:   Mon Mar 25 11:45:37 2019 +0300
+
+    added README.md
+
+[33mcommit 809119c914772c8d49e443bf52000723aba8334c[m
+Author: LuciferTheFirstt <dimonator67@gmail.com>
+Date:   Mon Mar 25 11:15:30 2019 +0300
+
+    added sources
+
+[33mcommit 05b00c53d9ec796754426a189daacd335334d9da[m
+Author: LuciferTheFirstt <dimonator67@gmail.com>
+Date:   Mon Mar 25 11:06:11 2019 +0300
+
+    *build*/
+    *install*/
+    *.swp
+    .idea/
+
+[33mcommit 7370432f9c661d97a72c36d35d4c346b11159184[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: ed14855 36da062
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Thu Feb 28 17:24:16 2019 +0300
+
+    Merge pull request #1 from drewxa/patch-1
+    
+    added homework
+
+[33mcommit 36da062d807b544e0af524275c3c79e73320f2b0[m
+Author: drewxa <bo.ro.da@mail.ru>
+Date:   Tue Feb 26 19:48:32 2019 +0300
+
+    added homework
+    
+    Добавлено задания для самоподготовки:
+    * init
+    * commit
+    * log
+    * push
+    * rebase
+
+[33mcommit ed14855954e0f21b177e3e7e541eb763b86dd674[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jan 20 11:28:59 2019 +0000
+
+    fixed lab ID
+
+[33mcommit 457bbf6275564245978ae511ed8aea53cda81de5[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jan 20 11:25:58 2019 +0000
+
+    move hub installation to lab00
+
+[33mcommit 2565c654e3cf8322c6e7b02210cfbb04d25ba2e3[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jan 20 13:29:16 2019 +0300
+
+    Update README.md
+
+[33mcommit 3e78c8c11ae5fba16a7e74e11b495c6584e018f7[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jan 20 13:26:47 2019 +0300
+
+    Update README.md
+
+[33mcommit 4e04eb75d8c2f607770c264631910fdbe33c650c[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jan 20 13:05:32 2019 +0300
+
+    Update README.md
+
+[33mcommit 82e7b76a958b4609b76804f0303cf5780c0d6d3b[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Thu Oct 26 19:00:56 2017 -0800
+
+    refactored
+
+[33mcommit dc253c16edc221bf23bcbe38a26608c5530333e6[m
+Author: justcppdev <justcppdev@ya.ru>
+Date:   Mon Sep 25 13:06:08 2017 +0300
+
+    Update README.md
+
+[33mcommit 97d9e6396164a2fbc9de30332ecfda968fac8222[m
+Author: justcppdev <justcppdev@ya.ru>
+Date:   Mon Sep 25 13:05:25 2017 +0300
+
+    Update README.md
+
+[33mcommit 9f9171c543d7ea6754d70f6135cfa81a60fcb8ec[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Jun 25 10:10:33 2017 +0300
+
+    Update README.md
+
+[33mcommit 5ae6ba5711dfd69566d777d4e5441c7130eeae02[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Tue Jun 13 10:54:05 2017 +0300
+
+    Create README.md
+
+[33mcommit 1ae112f815f66860c8d4723e552577b27fa945b5[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Mon May 22 09:40:11 2017 +0300
+
+    Update README.md
+
+[33mcommit 93cdc0fbcb421f69504b9ffaff6271c93fbeeda7[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 19:02:47 2017 +0300
+
+    refactoring
+
+[33mcommit dd2b22e9e8520ccb53aea44e2f54362fc7b8ae9b[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 11:45:05 2017 +0300
+
+    refactoring
+
+[33mcommit fc7458fe1df6051ad3ee2c57ce41b6d1d79dc03c[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 09:14:56 2017 +0300
+
+    Update README.md
+
+[33mcommit 5939fa15345c24caa0b598505a654d92fc3f9d05[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 09:00:00 2017 +0300
+
+    Update
+
+[33mcommit d15c811a75d24aba9fc09ca1b576553624c97096[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 08:59:48 2017 +0300
+
+    Update README.md
+
+[33mcommit 7d508e748267619b63d43353cc29d127ee6b4046[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 08:58:49 2017 +0300
+
+    Update README.md
+
+[33mcommit 5f55ce3d2159e63800d9881d2c0ead0d8fcceea6[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Wed May 17 08:20:16 2017 +0300
+
+    Update README.md
+
+[33mcommit a061595ee7a0691eff577586e4314f4335a6abdc[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Mon May 15 12:08:42 2017 +0300
+
+    Update README.md
+
+[33mcommit c54d4a0762bf19080da724657259dcc36ec302ca[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Sun Apr 30 11:12:04 2017 +0300
+
+    refactoring
+
+[33mcommit 3f1c1f6e462687e4f51909628167965f5ba70b67[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Thu Apr 27 15:13:25 2017 +0300
+
+    Update README.md
+
+[33mcommit a968e67febbb7cca46125868032c5f785a445f81[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Thu Apr 27 14:45:43 2017 +0300
+
+    Create README.md
+
+[33mcommit 550513f0218a8737ebbc17d40135afae4155b674[m
+Author: rusdevops <rusdevops@gmail.com>
+Date:   Thu Apr 27 14:44:04 2017 +0300
+
+    Initial commit
