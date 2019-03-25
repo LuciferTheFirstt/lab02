@@ -8,28 +8,36 @@ $ open https://git-scm.com
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab02** и с лиценцией **MIT**
-- [ ] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами **repo**
-- [ ] 3. Ознакомиться со ссылками учебного материала
-- [ ] 4. Выполнить инструкцию учебного материала
-- [ ] 5. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [x] 1. Создать публичный репозиторий с названием **lab02** и с 
+лиценцией **MIT**
+- [x] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами 
+**repo**
+- [x] 3. Ознакомиться со ссылками учебного материала
+- [x] 4. Выполнить инструкцию учебного материала
+- [x] 5. Составить отчет и отправить ссылку личным сообщением в 
+**Slack**
 
 ## Tutorial
 
+Ввод переменных окружения и вызов текстового редактора Sublime Text.
 ```ShellSession
 $ export GITHUB_USERNAME=<имя_пользователя>
 $ export GITHUB_EMAIL=<адрес_почтового_ящика>
 $ export GITHUB_TOKEN=<сгенирированный_токен>
 $ alias edit=<nano|vi|vim|subl>
 ```
-
+Начинаем работу в каталоге **workspace**
 ```ShellSession
+# Переход в  рабочую директорию
 $ cd ${GITHUB_USERNAME}/workspace
+# Выполнение команд из файла в текущем командном процессоре
 $ source scripts/activate
 ```
 
 ```ShellSession
+# Создание директории `~/.config`
 $ mkdir ~/.config
+# Создание файла hub
 $ cat > ~/.config/hub <<EOF
 github.com:
 - user: ${GITHUB_USERNAME}
@@ -42,16 +50,24 @@ $ git config --global hub.protocol https
 ```ShellSession
 $ mkdir projects/lab02 && cd projects/lab02
 $ git init
+# Указание пользовательских настроек: адреса, имени пользователя, 
+протокола.
 $ git config --global user.name ${GITHUB_USERNAME}
 $ git config --global user.email ${GITHUB_EMAIL}
-# check your git global settings
+# Проверка настроек
 $ git config -e --global
+# Подключение локального репозитория к удаленному серверу
 $ git remote add origin https://github.com/${GITHUB_USERNAME}/lab02.git
+# Объединение изменений, присутствующих в удаленном репозитории, в 
+локальный рабочий каталог
 $ git pull origin master
 $ touch README.md
+#список изменений файла
 $ git status
 $ git add README.md
 $ git commit -m"added README.md"
+# Помещение изменений в главную ветку удаленного хранилища, связанного с 
+рабочим каталогом
 $ git push origin master
 ```
 
@@ -64,12 +80,16 @@ $ git push origin master
 *.swp
 .idea/
 ```
-
+Работа с репозиторием.
 ```ShellSession
+#Объединение изменений, присутствующих в удаленном репозитории, в 
+локальный рабочий каталог
 $ git pull origin master
+#Cписок коммитов
 $ git log
 ```
-
+Создание директорий в рабочем каталоге и исполняемых файлов в данных 
+директориях.
 ```ShellSession
 $ mkdir sources
 $ mkdir include
@@ -124,11 +144,12 @@ int main(int argc, char** argv)
 }
 EOF
 ```
-
+Редактируем файл.
+```ShellSession
 ```ShellSession
 $ edit README.md
 ```
-
+Запись изменений в репозиторий
 ```ShellSession
 $ git status
 $ git add .
